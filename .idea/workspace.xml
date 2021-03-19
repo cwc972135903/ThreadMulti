@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c75647-ff73-4ffa-acf0-18ab0dcd8462" name="Default Changelist" comment="" />
+    <list default="true" id="77c75647-ff73-4ffa-acf0-18ab0dcd8462" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectForCWC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadDemoNew/TestAQSMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadDemoNew/TestCustomAQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,7 +48,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UyeS8jtdnJlIb4jIXvoZUR0sQc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProjectGit/truk-dev/xcrms-trunk/xcrms-message/pom.xml" />
@@ -80,9 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCallable">
-    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadDemoNew.TestCallable" />
+  <component name="RunManager" selected="Application.TestAQSMain">
+    <configuration name="TestAQSMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemoNew.TestAQSMain" />
       <module name="ProjectForCWC" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadDemoNew.TestInterrupt" />
+    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemoNew.TestCallable" />
       <module name="ProjectForCWC" />
       <extension name="coverage">
         <pattern>
@@ -147,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestInterrupt" />
       <item itemvalue="Application.TestJoin" />
       <item itemvalue="Application.TestWaitNotify" />
       <item itemvalue="Application.TestCallable" />
       <item itemvalue="Application.TestProductConsumerWithWait" />
+      <item itemvalue="Application.TestAQSMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAQSMain" />
         <item itemvalue="Application.TestCallable" />
         <item itemvalue="Application.TestProductConsumerWithWait" />
         <item itemvalue="Application.TestWaitNotify" />
         <item itemvalue="Application.TestJoin" />
-        <item itemvalue="Application.TestInterrupt" />
       </list>
     </recent_temporary>
   </component>
@@ -265,12 +276,23 @@
       <workItem from="1615859032567" duration="624000" />
       <workItem from="1615860692818" duration="423000" />
       <workItem from="1615861177151" duration="17838000" />
-      <workItem from="1615974563017" duration="1178000" />
+      <workItem from="1615974563017" duration="5161000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
